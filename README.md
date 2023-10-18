@@ -12,7 +12,17 @@ and estimation neural network (NN) requiring training.
 - Pytorch
 - numpy
 
-## Run
+## Data
+The MS raw data used for obtaining trained model (trainedmodel.pt) and analysis files have been deposited with the ProteomeXchange
+Consortium (http://proteomecentral.proteomexchange.org) via the jPOST partner
+repository (https:// jpostdb.org) with the data set identifier PXD046201.
+
+
+## CCS prediction with trained model (trainedmodel.pt)
+1. Prepare csv file for test: with amino-acid sequence, (CCS value,) charge, and mass data
+2. Run main_trained.py (Output: out_test_predictCCS.csv)
+
+## CCS prediction with training on your data
 1. Prepare csv files for training and test
    - for training of estimation NN: with amino-acid sequence, CCS value, charge, and mass data
    - for test: with amino-acid sequence, (CCS value,) charge, and mass data 
