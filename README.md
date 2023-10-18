@@ -20,13 +20,14 @@ repository (https:// jpostdb.org) with the data set identifier PXD046201.
 
 ## CCS prediction with trained model (trainedmodel.pt)
 1. Prepare csv file for test: with amino-acid sequence, (CCS value,) charge, and mass data
-2. Run main_trained.py (Output: out_test_predictCCS.csv)
+2. Run preprocessing.py for the csv file
+3. Run main_trained.py (Output: out_test_predictCCS.csv)
 
 ## CCS prediction with training on your data
 1. Prepare csv files for training and test
    - for training of estimation NN: with amino-acid sequence, CCS value, charge, and mass data
    - for test: with amino-acid sequence, (CCS value,) charge, and mass data 
-3. Run preprocessing.py
+3. Run preprocessing.py for each csv file
 4. Run main.py (Output: out_test_predictCCS.csv)
 
 
