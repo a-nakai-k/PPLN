@@ -1,7 +1,7 @@
 # Pretrained Protein Language model-based Network
 
 Python implementation of Pretrained Protein Language model-based Network (PPLN).
-CCS value prediction using pretrained deep protein language model (ESM-1b) as a feature extractor from peptide sequences 
+CCS value prediction using pretrained deep protein language model as a feature extractor from peptide sequences 
 and estimation neural network (NN) requiring training.
 
 <img width="407" alt="ppln" src="https://github.com/a-nakai-k/PPLN/assets/40450686/da500608-4224-4884-8ca9-74e5cdb739ec">
@@ -18,6 +18,7 @@ Consortium (http://proteomecentral.proteomexchange.org) via the jPOST partner
 repository (https:// jpostdb.org) with the data set identifier PXD046201.
 
 The file "trainedmodel.pt" is the model trained using the above data.
+ESM-1b (Rives et al., 2021) was used as the pretrained deep protein language model.
 
 
 ## CCS prediction with trained model (trainedmodel.pt)
