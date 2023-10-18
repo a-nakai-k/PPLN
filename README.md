@@ -17,6 +17,8 @@ The MS raw data used for obtaining trained model (trainedmodel.pt) and analysis 
 Consortium (http://proteomecentral.proteomexchange.org) via the jPOST partner
 repository (https:// jpostdb.org) with the data set identifier PXD046201.
 
+The file "trainedmodel.pt" is the model trained using the above data.
+
 
 ## CCS prediction with trained model (trainedmodel.pt)
 1. Prepare csv file for test: with amino-acid sequence, (CCS value,) charge, and mass data
