@@ -4,7 +4,8 @@ Python implementation of Pretrained Protein Language model-based Network (PPLN).
 CCS value prediction using pretrained deep protein language model as a feature extractor from peptide sequences 
 and estimation neural network (NN) requiring training.
 
-<img width="407" alt="ppln" src="https://github.com/a-nakai-k/PPLN/assets/40450686/da500608-4224-4884-8ca9-74e5cdb739ec">
+<img width="407" alt="ppln" src="https://github.com/user-attachments/assets/344eb457-9125-43f3-b07b-6e4b7aee6b89">
+
 
 
 
